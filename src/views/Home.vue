@@ -90,8 +90,7 @@ body{font-family:Inter, system-ui, Arial, sans-serif;background:#F5F5F5}
   -webkit-appearance: none;
   appearance: none;
 }
-.pf-btn{width:130px;height:40px;background:#222222;color:#fff;border-radius:30px;border:0;cursor:pointer;font-size:20px;font-family:'Montserrat Alternates', sans-serif;box-shadow:0 6px 16px rgba(0,0,0,0.25);align-self:center}
-
+.pf-btn{width:130px;height:40px;background:#222222;color:#fff;border-radius:30px;border:0;cursor:pointer;font-size:20px;font-family:'Montserrat Alternates', sans-serif;box-shadow:0 6px 16px rgba(0,0,0,0.25);align-self:center;margin-left: 10px;}
 
 @media (max-width:1600px){
   .three-blocks{gap:40px;padding:0 16px}
