@@ -47,11 +47,16 @@ import Footer from '../components/Footer.vue'
 .reg-footer{margin-top:12px;color:#666}
 .reg-footer a{color:#222;text-decoration:none;margin-left:6px}
 
-@media (max-width:1200px){
+@media (max-width:1600px){
+  .register-layout{width:100%;height:100%}
+  .register-image{width:300px;height:510px}
+}
+
+@media (max-width:1366px){
   .register-canvas{padding-left:20px;padding-right:20px;padding-top:40px;padding-bottom:40px}
-  .register-layout{flex-direction:column;align-items:center;gap:24px}
-  .register-image{width:90%;height:auto;aspect-ratio:900/510;border-radius:18px}
-  .register-form{width:90%;max-width:700px}
+  .register-layout{flex-direction:column;align-items:stretch;gap:24px}
+  .register-image{display:none}
+  .register-form{width:100%;max-width:700px;margin:0 auto}
 }
 
 </style>
