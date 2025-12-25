@@ -48,9 +48,11 @@
 .site-header{width:100%;display:flex;justify-content:center}
 .header-inner{max-width:1920px;width:100%;height:164px;background:#222222;display:flex;align-items:center;justify-content:space-between;padding:0 150px;box-sizing:border-box;color:#fff;margin:0 auto}
 .header-left{display:flex;align-items:center}
-.logo-wrap{display:flex;align-items:center;gap:8px}
-.logo-text{font-family: 'Jersey 10', Georgia, serif;font-size:64px;color:#FFFFFF;line-height:1}
-.logo-icon{width:45px;height:40px;margin-top:10px;}
+.logo-wrap{display:flex;align-items:center;gap:8px;cursor:pointer;transition:opacity .18s ease}
+.logo-text{font-family: 'Jersey 10', Georgia, serif;font-size:64px;color:inherit;line-height:1}
+.logo-icon{width:45px;height:40px;margin-top:10px}
+
+.logo-wrap:hover{opacity:0.8}
 .header-center{position:relative;display:flex;align-items:center}
 .genres-btn{width:45px;height:45px;border-radius:8px;background:transparent;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer}
 .search-wrap{width:420px;height:25px;background:#FFFFFF;border-radius:10px;display:flex;align-items:center;gap:12px;padding:10px 16px;box-shadow:0 4px 12px rgba(2,6,23,0.12);margin:0 24px}

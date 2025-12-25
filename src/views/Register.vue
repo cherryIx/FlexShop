@@ -17,7 +17,7 @@
 
           <button class="reg-submit">Создать аккаунт</button>
 
-          <div class="reg-footer">Уже имеете аккаунт? <a href="/">Войти</a></div>
+          <div class="reg-footer">Уже имеете аккаунт? <a href="/login">Войти</a></div>
         </div>
       </div>
     </main>
@@ -36,7 +36,7 @@ import Footer from '../components/Footer.vue'
 .register-root{min-height:100vh;display:flex;flex-direction:column;align-items:center;background:#F5F5F5}
 .register-canvas{width:100%;display:flex;justify-content:flex-start;background:#F5F5F5;flex:1;padding-top:150px;padding-bottom:150px;padding-left:70px;padding-right:70px;box-sizing:border-box}
 
-.register-layout{display:flex;align-items:flex-start;gap:160px}
+.register-layout{display:flex;align-items:center;gap:160px}
 .register-image{width:900px;height:510px;background-image:url('/src/assets/photos/registration.png');background-size:cover;background-position:center;border-radius:30px;flex:0 0 900px}
 .register-form{width:420px;max-width:calc(100% - 900px);display:flex;flex-direction:column;gap:18px}
 .reg-title{font-family:'Montserrat Alternates', sans-serif;font-size:36px;margin:0 0 6px}
